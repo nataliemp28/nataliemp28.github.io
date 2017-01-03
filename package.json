@@ -5,7 +5,8 @@
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
-    "gulp-bundle-assets": "^2.27.1"
+    "gulp-bundle-assets": "^2.27.1",
+    "gulp-install": "^0.6.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
