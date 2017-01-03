@@ -5,7 +5,10 @@
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "gulp": "^3.9.1",
     "gulp-bundle-assets": "^2.27.1",
+    "gulp-header": "^1.8.8",
     "gulp-install": "^0.6.0"
   },
   "scripts": {
