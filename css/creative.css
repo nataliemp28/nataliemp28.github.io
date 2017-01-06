@@ -265,7 +265,7 @@ header .header-content .header-content-inner p {
   font-size: 18px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-size: 22px;
+  font-size: 28px;
 }
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
@@ -278,7 +278,7 @@ header .header-content .header-content-inner p {
     font-size: 18px;
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 22px;
+    font-size: 28px;
   }
 }
 .call-to-action h2 {
