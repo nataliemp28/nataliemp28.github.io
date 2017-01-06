@@ -9,7 +9,7 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 hr {
   border-color: #985277;
@@ -64,14 +64,14 @@ aside {
 .navbar-default {
   background-color: white;
   border-color: rgba(23, 39, 39, 0.05);
-  font-family: 'Abel', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
   color: #172727;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 900;
 }
 .navbar-default .navbar-header .navbar-brand img {
@@ -265,7 +265,7 @@ header .header-content .header-content-inner p {
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 0 15px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -396,7 +396,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   border: none;
   border-radius: 300px;
   font-weight: 900;
