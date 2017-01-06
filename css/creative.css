@@ -74,6 +74,10 @@ aside {
   font-family: 'Abel', sans-serif;
   font-weight: 900;
 }
+.navbar-default .navbar-header .navbar-brand img {
+  display: inline;
+  padding-right: 5px;
+}
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
   color: #77405d;
@@ -109,6 +113,10 @@ aside {
   }
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar-default .navbar-header .navbar-brand img {
+    diplay: inline;
+    padding-right: 5px;
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
