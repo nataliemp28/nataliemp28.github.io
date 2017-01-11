@@ -53,6 +53,11 @@ p {
 .subheading {
   font-size: 24px;
 }
+.descriptions {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 15px;
+}
 .bg-primary {
   background-color: #985277;
 }
@@ -171,9 +176,8 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/london-bridge-faded.jpg');
+  background-image: url('../img/sea-img.jpg');
   text-align: center;
-  color: white;
 }
 header .header-content {
   position: relative;
@@ -182,14 +186,14 @@ header .header-content {
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
-  font-weight: 550;
+  font-weight: 900;
   color: #172727;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 60px;
 }
 header .header-content .header-content-inner h6 {
-  font-weight: 550;
+  font-weight: 700;
   color: #172727;
   font-size: 30px;
 }
