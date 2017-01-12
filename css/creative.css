@@ -167,6 +167,15 @@ aside {
     color: #985277;
   }
 }
+@media (max-width: 500px) {
+  .nav > li > a {
+    font-size: 12px;
+  }
+  .nav > li > a img {
+    diplay: inline;
+    padding-right: 0px;
+  }
+}
 header {
   position: relative;
   width: 100%;

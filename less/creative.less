@@ -179,12 +179,15 @@ aside {
         }
     }
 }
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
+@media (max-width: 500px) {
+    .nav > li > a {
+        font-size: 12px;
+        img {
+          diplay: inline;
+          padding-right: 0px;
+        }
+      }
+    }
 
 
 // Homepage Header
