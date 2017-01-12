@@ -131,7 +131,7 @@ aside {
     color: rgba(255, 255, 255, 0.7);
   }
   .navbar-default .navbar-header .navbar-brand img {
-    diplay: inline;
+    display: inline;
     padding-right: 5px;
   }
   .navbar-default .navbar-header .navbar-brand:hover,
@@ -167,13 +167,17 @@ aside {
     color: #985277;
   }
 }
-@media (max-width: 500px) {
-  .nav > li > a {
+@media only screen and (max-width: 320px) {
+  .navbar-header .navbar-brand {
     font-size: 12px;
+    padding-left: 2px;
   }
-  .nav > li > a img {
-    diplay: inline;
-    padding-right: 0px;
+  .navbar-header .navbar-brand .navbar-default .navbar-header .navbar-toggle {
+    font-size: 12px;
+    padding-right: 2px;
+  }
+  .navbar-header .navbar-brand .navbar-default .navbar-header .navbar-toggle img {
+    display: inline;
   }
 }
 header {

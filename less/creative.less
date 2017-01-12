@@ -143,7 +143,7 @@ aside {
         .navbar-header .navbar-brand {
             color: fade(white, 70%);
             img {
-              diplay: inline;
+              display: inline;
               padding-right: 5px;
             }
             &:hover,
@@ -179,15 +179,20 @@ aside {
         }
     }
 }
-@media (max-width: 500px) {
-    .nav > li > a {
+@media only screen and (max-width: 320px) {
+    .navbar-header .navbar-brand   {
         font-size: 12px;
+        padding-left: 2px;
+        // padding-right: 2px;
+     .navbar-default .navbar-header .navbar-toggle {
+        font-size: 12px;
+        padding-right: 2px;
         img {
-          diplay: inline;
-          padding-right: 0px;
+          display: inline;
         }
       }
     }
+  }
 
 
 // Homepage Header
