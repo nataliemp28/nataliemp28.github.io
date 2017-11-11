@@ -455,4 +455,12 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+  background-color: #D6DBE0;
+}
+.col-md-6.commercial {
+  padding-top: 1em;
+  background-color: #D6DBE0;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
 }
